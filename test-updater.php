@@ -3,23 +3,9 @@
 /* 
  * Plugin Name: Test Updater
  * Description: Test plugin for the updater
- * Version: 0.1.0
+ * Version: 0.2.0
  * Author: Your Name
  * Author URI: http://yourwebsite.com
  */
 
-
-//  This is a test....
-
-require 'plugin-update-checker/plugin-update-checker.php';
-
-use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
-
-$myUpdateChecker = PucFactory::buildUpdateChecker(
-  'https://github.com/prolific-digital/test-updater/',
-  __FILE__,
-  'unique-plugin-or-theme-slug'
-);
-
-//Set the branch that contains the stable release.
-// $myUpdateChecker->setBranch('main');
+require_once plugin_dir_path(__FILE__) . 'includes/update-checker.php';
