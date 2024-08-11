@@ -3,7 +3,7 @@
 /* 
  * Plugin Name: Test Updater
  * Description: Test plugin for the updater
- * Version: 0.2.0
+ * Version: 0.3.0
  * Author: Your Name
  * Author URI: http://yourwebsite.com
  */
